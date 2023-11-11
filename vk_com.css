@@ -219,25 +219,24 @@ body {
     border-radius: 10px;
     background: white;
     position: absolute;
-    opacity: 0;
     left: 5px;
     top: 140%;
     color: #282828;
     font-size: 14px;
     padding: 12px;
-    transition-duration: 0.3s;
+    transition-duration: 0.4s;
+    visibility: hidden;
 }
 
 .img_question:hover .child{
-    opacity: 1;
+    visibility: visible;
     top: 120%;
-    transition-duration: 0.3s;
+    transition-duration: 0.4s;
 }
 
 .save {
     font-weight: 600;
 }
-
 
 .button_submit {
     width: 100%;
